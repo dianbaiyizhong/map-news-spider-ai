@@ -9,7 +9,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@MapperScan(value = {"com.nntk.mapnews"}) // 扫描 Mapper 接口所在的包
+@MapperScan(value = {"com.nntk.mapnews.mp"}) // 扫描 Mapper 接口所在的包
 public class Application {
 
     public static void main(String[] args) {
