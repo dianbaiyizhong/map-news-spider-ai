@@ -22,7 +22,7 @@ if not api_key:
 
 config = BrowserConfig(
     # 不开启浏览器窗口  
-    headless=False,
+    headless=True,
     disable_security=True,
     # headless为true，这个值就不能设置  
     # chrome_instance_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
