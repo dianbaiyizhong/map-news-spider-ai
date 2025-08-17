@@ -36,8 +36,7 @@ async def main():
     agent = Agent(
         # browser=browser,
         task='''
-     1. 打开http://www.baidu.com
-     2. 搜索 曼巴吐讯，返回第一个结果标题，然后直接结束
+     1. 打开https://www.baidu.com
     ''',
         llm=ChatOpenAI(model="qwen-plus",
                        api_key='sk-cb80f6a73a5f4ffb80b12f3260eb7217',
